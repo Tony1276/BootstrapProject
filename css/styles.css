@@ -1,0 +1,187 @@
+        body {
+            font-family: 'montserrat', sans-serif;
+        }
+        
+        #title {
+            background-color: #ff4c68;
+            color: white;
+        }
+        
+        .container-fluid {
+            padding: 3% 15% 7%;
+        }
+        
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 900;
+            font-size: 3.5rem;
+            line-height: 1.5;
+        }
+        /* Navigation bar */
+        
+        .navbar-brand {
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+        
+        .navbar {
+            padding: 0 0 10%;
+        }
+        
+        .nav-item {
+            padding: 0 20px;
+        }
+        
+        .nav-link {
+            font-size: 1.2rem;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 400;
+        }
+        /* Download buttons */
+        
+        .apple-button {
+            margin: 5% 3% 5% 0;
+        }
+        /* Title Image styles */
+        
+        .title-image {
+            position: absolute;
+            right: 30%;
+            width: 60%;
+            transform: rotate(25deg);
+            z-index: 1;
+        }
+        /* Features styles */
+        
+        #features {
+            position: relative;
+            background-color: white;
+            padding: 10% 15%;
+            z-index: 2;
+        }
+        
+        .feature-item {
+            padding: 5% 20px;
+            text-align: center;
+            align-items: center;
+        }
+        
+        .col-lg-4 i {
+            font-size: 45px;
+            padding-bottom: 10px;
+            color: #ef8172;
+        }
+        
+        .col-lg-4 i:hover {
+            color: #ff4c68;
+        }
+        
+        .col-lg-4 h3 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 1.5em;
+            font-weight: 900;
+        }
+        
+        .col-lg-4 p {
+            color: grey;
+        }
+        /* testimonial styles */
+        
+        #testimonials {
+            text-align: center;
+            color: white;
+            background-color: #ef8172;
+        }
+        
+        .carousel-item {
+            padding: 10% 15%;
+        }
+        
+        #testimonials h2 {
+            padding-bottom: 5%;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 900;
+            font-size: 3rem;
+            line-height: 1.5;
+        }
+        
+        #testimonials img {
+            width: 10%;
+            border-radius: 100%;
+            margin: 20px;
+        }
+        /* Press styles */
+        
+        #press {
+            background-color: #ef8172;
+            text-align: center;
+            padding-bottom: 3%;
+        }
+        
+        #press img {
+            width: 15%;
+            margin: 20px 20px;
+        }
+        /* card styles */
+        
+        #pricing {
+            padding: 10% 10%;
+            text-align: center;
+        }
+        
+        .card-item {
+            padding: 5% 3%;
+        }
+        
+        @media (max-width: 1020px) {
+            .title-image {
+                position: static;
+                transform: rotate(0);
+            }
+            #title {
+                text-align: center;
+            }
+        }
+        /* call to action styles */
+        
+        #cta {
+            background-color: #ff4c68;
+            text-align: center;
+            padding: 5% 0;
+        }
+        
+        #cta h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+            font-size: 3rem;
+            font-weight: 900;
+            padding: 5% 20%;
+        }
+        
+        #cta i {
+            font-size: 15px;
+            padding: 0 10px;
+        }
+        
+        #cta .btn {
+            margin: 0 1% 5%;
+        }
+        /* footer styles */
+        
+        #footer {
+            padding: 10% 15%;
+        }
+        
+        .icon {
+            text-align: center;
+        }
+        
+        .icon i {
+            padding-right: 10px;
+        }
+        
+        #footer p {
+            text-align: center;
+            padding-top: 15px;
+        }
